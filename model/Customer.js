@@ -21,10 +21,7 @@ const customerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  validated: {
-    type: Boolean,
-    default: false,
-  },
+
   customerLocation: {
     type: String,
     default: "",
